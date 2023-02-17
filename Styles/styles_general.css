@@ -1,18 +1,35 @@
 * {
-    margin: 3px;
+    margin: 0px;
     padding: 0px;
     text-decoration: none;
     box-sizing: border-box;
 }
 
 body {
-    background-color: #F9F8FC;
+    background-color: #f9f8fc;
+    background-image: url(../Multimedia/Imagenes/fondo\ recetas\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.navcolor {
+    background-color: #782701 !important;
+}
+
+.navcolordos {
+    color: #782701 !important;
+}
+
+.botonburger {
+    color: #ffffff;
 }
 
 ul {
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 li {
@@ -27,10 +44,6 @@ li {
     align-items: center;
 }
 
-a :hover {
-    color: #be4107;
-}
-
 footer {
     display: flex;
     justify-content: center;
@@ -39,194 +52,17 @@ footer {
 
 footer i {
     color: #ffffff;
+    margin: 10px;
 }
 
 .Cards_box {
     display: flex;
-    height: 210vh;
-    position: relative;
-}
-
-.Card_Container_one {
-    color: #ffffff;
-    border: #782701 1px solid;
-    background-color: #7827013b;
-    border-radius: 10%;
-    position: absolute;
-    left: 1px;
-    display: flex;
+    height: auto;
     flex-direction: row;
-    width: 40%;
-    height: 47%;
-    top: 3vh;
-    width: 40%;
-    background-image: url(../Multimedia/Imagenes/Comida\ dulce\ 1.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    align-items: flex-end;
-    box-shadow: 1px 0px 9px 0px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 1px 0px 9px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 1px 0px 9px 0px rgba(0, 0, 0, 0.75);
-}
-
-.mas_info_one {
-    position: absolute;
-    bottom: 4vh;
-    right: 1vw;
-}
-
-.texto_index_one {
-    color: #782701;
-    position: relative;
-    bottom: 12vh;
-    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
     align-items: center;
-}
-
-.nombre_one {
-    color: #501a01;
-    position: absolute;
-    bottom: 4vh;
-    left: 3vw;
-}
-
-.Card_Container_two {
-    color: #ffffff;
-    border: #782701 1px solid;
-    background-color: #7827013b;
-    border-radius: 10%;
-    position: absolute;
-    right: 1px;
-    display: flex;
-    flex-direction: row;
-    width: 57%;
-    height: 18%;
-    top: 3vh;
-    background-image: url(../Multimedia/Imagenes/Comida\ dulce\ 2.png);
-    background-repeat: no-repeat;
-    background-size: 310px;
-    justify-content: start;
-    align-items: flex-end;
-    background-position-y: center;
-    box-shadow: 1px 0px 9px 0px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 1px 0px 9px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 1px 0px 9px 0px rgba(0, 0, 0, 0.75);
-}
-
-.mas_info_two {
-    position: absolute;
-    bottom: 2vh;
-    right: 1vw;
-}
-
-.texto_index_two {
-    color: #782701;
-    position: relative;
-    bottom: 8vh;
-    left: 23vw;
-    height: 25vh;
-    width: 31vw;
-    display: flex;
-    align-items: center;
-    font-size: 70%;
-}
-
-.nombre_two {
-    color: #501a01;
-    position: absolute;
-    bottom: 2vh;
-    left: 24vw;
-}
-
-.Card_Container_three {
-    color: #ffffff;
-    border: #782701 1px solid;
-    background-color: #7827013b;
-    border-radius: 10%;
-    position: absolute;
-    right: 1px;
-    display: flex;
-    flex-direction: row;
-    width: 57%;
-    height: 18%;
-    top: 45vh;
-    background-image: url(../Multimedia/Imagenes/Comida\ dulce\ 3.png);
-    background-repeat: no-repeat;
-    background-size: 310px;
-    justify-content: start;
-    align-items: flex-end;
-    box-shadow: 1px 0px 9px 0px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 1px 0px 9px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 1px 0px 9px 0px rgba(0, 0, 0, 0.75);
-}
-
-.mas_info_three {
-    position: absolute;
-    bottom: 2vh;
-    right: 1vw;
-}
-
-.texto_index_three {
-    color: #782701;
-    position: relative;
-    bottom: 8vh;
-    left: 23vw;
-    height: 25vh;
-    width: 31vw;
-    display: flex;
-    align-items: center;
-    font-size: 70%;
-}
-
-.nombre_three {
-    color: #501a01;
-    position: absolute;
-    bottom: 2vh;
-    left: 24vw;
-}
-
-.Card_Container_four {
-    color: #ffffff;
-    border: #782701 1px solid;
-    background-color: #7827013b;
-    border-radius: 10%;
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    width: 40%;
-    height: 47%;
-    top: 106vh;
-    width: 40%;
-    left: 1px;
-    background-image: url(../Multimedia/Imagenes/Comida\ dulce\ 4.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    align-items: flex-end;
-    box-shadow: 1px 0px 9px 0px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 1px 0px 9px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 1px 0px 9px 0px rgba(0, 0, 0, 0.75);
-}
-
-.mas_info_four {
-    color: #501a01;
-    position: absolute;
-    bottom: 4vh;
-    right: 1vw;
-}
-
-.texto_index_four {
-    color: #782701;
-    position: relative;
-    bottom: 12vh;
-    display: flex;
-    align-items: center;
-}
-
-.nombre_four {
-    color: #501a01;
-    position: absolute;
-    bottom: 4vh;
-    left: 3vw;
 }
 
 .container_recetas {
@@ -236,18 +72,6 @@ footer i {
     border-radius: 5%;
     background-color: #7827011e;
     color: #782701;
-}
-
-.img_especifica {
-    border: 5px #782701 solid;
-}
-
-.container_especifica {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    font-size: 25px;
-    align-items: center;
 }
 
 .Container_contacto {
@@ -269,38 +93,41 @@ footer i {
 }
 
 .contenedor_nosotros {
-    border: black 3px solid;
-    position: relative;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1441px) {
+    .contenedor_nosotros {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 899px) {
+    aside {
+        background-color: #8550385e;
+        color: antiquewhite;
+    }
 }
 
 .aside_nosotros {
-    position: relative;
-    border: 3px #782701 solid;
     background-color: #7827011e;
-    width: 30%;
-    max-height: 90vh;
     justify-content: center;
     text-align: center;
-    overflow-y: auto;
 }
 
 .texto_nosotros {
-    border: #782701 3px solid;
-    width: 70vw;
-    position: relative;
     font-size: 20px;
-    background-color: #be410744;
-}
-
-header {
-    background-color: #F9F8FC;
+    background-color: #792a05b2;
+    color: antiquewhite;
+    border: #782701 3px solid;
 }
 
 #logo {
     margin: auto;
-    height: 250px;
+    height: auto;
     text-align: center;
 }
 
@@ -309,44 +136,12 @@ header {
     font-size: 58px;
 }
 
-nav {
-    height: 60px;
-    background-color: #782701;
-    text-align: center;
-    border-radius: 5%;
-}
-
-nav ul {
-    list-style: none;
-    display: inline-block;
-}
-
-nav ul li {
-    float: left;
-}
-
-nav ul li a {
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    padding: 18px;
-}
-
-nav ul li a:hover {
-    background-color: #be4107;
-    border-radius: 20%;
-    z-index: 500;
-    box-shadow: 4px 4px 13px 0px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 4px 4px 13px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 4px 4px 13px 0px rgba(0, 0, 0, 0.75);
-}
-
 header img {
     width: 30vw;
 }
 
-img {
-    border-radius: 10%;
+#menuBurger {
+    color: #ffffff;
 }
 
 .titulo_recetas {
@@ -361,20 +156,19 @@ img {
 
 .container_preparacion {
     border: #782701 solid;
-    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
     background-color: #78270152;
 }
 
 .preparacion {
     display: flex;
-    height: 50vh;
     flex-direction: column;
     font-size: 20px;
-    background-image: url(../Multimedia/Imagenes/libro.jpg);
-    background-repeat: no-repeat;
-    background-size: 50vw;
-    background-position-x: 23vw;
     align-items: flex-start;
+    position: relative;
+    top: 7px;
 }
 
 .ingredientes {
@@ -396,21 +190,21 @@ img {
     display: flex;
     position: absolute;
     right: 10vw;
-    top: 35vh;
+    top: 33vh;
 }
 
 #ingrediente_dos {
     display: flex;
     position: absolute;
     right: 35vw;
-    top: 9vh;
+    top: 3vh;
 }
 
 #ingrediente_tres {
     display: flex;
     position: absolute;
     left: 40vw;
-    bottom: 5vh;
+    bottom: 4vh;
 }
 
 #ingrediente_cuatro {
@@ -431,7 +225,7 @@ img {
     display: flex;
     position: absolute;
     right: 5vw;
-    top: 10vh;
+    top: 14vh;
 }
 
 #ingrediente_siete {
@@ -447,142 +241,89 @@ img {
     bottom: 25vh;
 }
 
-.preparacion_ubicacion {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    left: 25vw;
-    top: 4vh;
+.container_especifica {
+    color: #ffffff;
 }
 
-.preparacion_ubicacionB {
-    position: absolute;
+.container_especifica p {
+    background-color: #78270136;
+}
+
+.preparacion_ubicacion {
+    background-color: #ffe4d7;
+    border: #782701 3px solid;
     display: flex;
     flex-direction: column;
-    left: 50vw;
-    top: 4vh;
+    
 }
 
 .hover_a:hover {
-    color: #782701;
+    color: hsl(19, 98%, 24%);
     border-radius: 20%;
     z-index: 500;
 }
 
-.conteiner_index {
-    border: #782701 3px solid;
+.botonrecetas {
+    background-color: #782701 !important;
+}
+
+.imgheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    left: 41vw;
-    top: 86vh;
-    width: 55vw;
-    height: 117vh;
+    top: 10%;
+    width: 95%;
 }
 
-.datos_contactos {
-    position: relative;
-    border: #782701 3px solid;
-    border-radius: 15%;
-    background-color: #be41077e;
-    width: 70vw;
-    height: 80vh;
-    left: 13vw;
-}
-
-.datos_nombre input {
-    height: 40px;
-    padding: 0 20px;
-    font-size: 18px;
-    color: #222;
-    outline: none;
-    border: 1px solid silver;
-    border-radius: 30px;
-    transition: all 0.6s ease;
-}
-
-.datos_nombre {
-    position: absolute;
-    left: 10vw;
-    top: 20vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.datos_apellido input {
-    height: 40px;
-    padding: 0 20px;
-    font-size: 18px;
-    color: #222;
-    outline: none;
-    border: 1px solid silver;
-    border-radius: 30px;
-    transition: all 0.6s ease;
-}
-
-.datos_apellido {
-    position: absolute;
-    right: 10vw;
-    top: 20vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.datos_telefono input {
-    height: 40px;
-    padding: 0 20px;
-    font-size: 18px;
-    color: #222;
-    outline: none;
-    border: 1px solid silver;
-    border-radius: 30px;
-    transition: all 0.6s ease;
-}
-
-.datos_telefono {
-    position: absolute;
-    top: 32vh;
-    left: 10vw;
-    display: flex;
-    flex-direction: column;
-}
-
-.datos_email input {
-    height: 40px;
-    padding: 0 20px;
-    font-size: 18px;
-    color: #222;
-    outline: none;
-    border: 1px solid silver;
-    border-radius: 30px;
-    transition: all 0.6s ease;
-}
-
-.datos_email {
-    position: absolute;
-    top: 32vh;
-    right: 10vw;
-    display: flex;
-    flex-direction: column;
-}
-
-.boton {
-    position: absolute;
-    bottom: 3vh;
-    left: 48%;
-}
-
-.titulo_contacto {
-    font-size: 50px;
+.redesheader {
     color: #782701;
-    position: absolute;
-    left: 28%;
-    top: 5%;
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
 }
 
-section textarea {
-    border-radius: 20px;
-    width: 30vw;
-    height: 20vh;
-    position: absolute;
-    bottom: 10vh;
-    left: 28%;
+.card img {
+    height: auto;
+    width: auto;
+    max-height: 44vh;
+}
+
+.img_especifica {
+    min-width: 10px;
+}
+
+@media screen and (min-width: 720px) and (max-width: 1440px) {
+    .preparacion_ubicacion {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 720px) {
+    .img_especifica {
+        width: 370px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1440px) {
+    .img_especifica {
+        position: relative;
+        left: 25%;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 799px) {
+    .img_especifica {
+        position: relative;
+        left: 17%;
+    }
+}
+
+.img_especifica {
+    border-radius: 20%;
+}
+
+.contenedo-contacto{
+    
 }

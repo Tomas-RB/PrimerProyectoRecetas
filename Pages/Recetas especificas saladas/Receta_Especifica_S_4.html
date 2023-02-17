@@ -9,27 +9,75 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../../Styles/styles_general.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
     <title>Receta Espesifica S 4</title>
 </head>
 
 <body>
     <header>
         <div id="logo">
-            <img src="../../Multimedia/Imagenes/icon-recetas.png" alt="El centollo">
+            <img src="./Multimedia/Imagenes/icon-recetas.png" alt="">
         </div>
-        <nav>
-            <ul>
-                <li><a href="../../index.html">Inicio</a></li>
-                <li><a href="../Contactanos.html">Contacto</a></li>
-                <li><a href="../nosotros.html">Nosotros</a></li>
-                <li><a href="../Recetas.html">Recetas</a></li>
-            </ul>
+        <nav class="navbar navcolor fixed-top ">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light" href="../../index.html"><i class="fa-solid fa-book-bookmark"></i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span id="menuBurger">
+                        <i class="fas fa-bars"></i>
+                    </span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Mis Recetas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active navcolordos" aria-current="page" href="../Recetas.html">Recetas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navcolordos" href="../nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navcolordos" href="../Contactanos.html">Contactanos</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                            <button class="btn btn-outline-succes" type="submit">Buscar</button>
+                        </form>
+                        <div class="imgheader"><img src="../../Multimedia/Imagenes/icon-recetas.png" alt=""></div>
+                    </div>
+                    <ul>
+                        <li>
+                            <a class="redesheader" target="_blank" href="https://www.facebook.com/"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a class="redesheader" target="_blank" href="https://www.instagram.com/"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a class="redesheader" target="_blank" href="https://twitter.com/"><i
+                                    class="fa-brands fa-twitter"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <div class="main_todo">
         <main>
             <div class="container_especifica">
-                <img class="img_especifica" width="500px" src="../../Multimedia/Imagenes/Comida salada 4.png" alt="foto comida salada 4">
+                <img class="img_especifica" width="500px" src="../../Multimedia/Imagenes/Comida salada 4.png"
+                    alt="foto comida salada 4">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda sint vitae fugit tempore maiores
                     ad magni harum sequi, sapiente optio dolore eum voluptatum nostrum quis sit perferendis beatae atque
                     explicabo?
@@ -70,8 +118,6 @@
                         <il>3. Lorem ipsum, dolor sit amet</il>
                         <il>4. Lorem ipsum, dolor sit amet</il>
                         <il>5. Lorem ipsum, dolor sit amet</il>
-                    </div>
-                    <div class="preparacion_ubicacionB">
                         <il>6. Lorem ipsum, dolor sit amet</il>
                         <il>7. Lorem ipsum, dolor sit amet</il>
                         <il>8. Lorem ipsum, dolor sit amet</il>
